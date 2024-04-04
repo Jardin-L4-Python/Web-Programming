@@ -1,0 +1,183 @@
+body {
+    background-color:  #000000;
+}
+h1 {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: -18px;
+    padding: 0px;
+    height: 355px;
+    width: 1340px;
+    font-family: Poppins, sans-serif;
+    color: rgb(223, 4, 4);
+    font-size: 90px;
+    letter-spacing: calc(1em / 9);
+}
+h2 {
+    font-size: 50px;
+    font-family: Georgia;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-family: Georgia;
+}
+h4 {
+    text-align: center;
+    font-family: Georgia; 
+    font-size: 25px;
+    color: white;
+}
+h5 {
+    text-align: center;
+    font-size: 22px;
+}
+h6 {
+    text-align: center;
+    font-size: 20px;
+}
+footer {
+    padding: 5px;
+    background-color: #921212;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.p {
+    font-family: Georgia; 
+    font-size: 29px;
+    color: white;
+    background-color: #000000;
+    margin: 40px;
+}
+.KEY_INFORMATION { 
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.PLOT {
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.season1 {
+    font-size: 28px;
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.season2 {
+    font-size: 28px;
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.season3 {
+    font-size: 28px;
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.season4 {
+    font-size: 28px;
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.s1p {
+    font-size: 25px;
+    text-align: justify;
+    font-family: Georgia; 
+    color: rgb(255, 255, 255);
+    margin: 40px;
+}
+.s2p {
+    font-size: 25px;
+    text-align: justify;
+    font-family: Georgia; 
+    color: rgb(255, 255, 255);
+    margin: 40px;
+}
+.s3p {
+    font-size: 25px;
+    text-align: justify;
+    font-family: Georgia; 
+    color: rgb(255, 255, 255);
+    margin: 40px;
+}
+.s4p {
+    font-size: 25px;
+    text-align: justify;
+    font-family: Georgia; 
+    color: rgb(255, 255, 255);
+    margin: 40px;
+}
+.MAIN_CAST {
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.FAN_REVIEWS {
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.CREATIVE_TEAM {
+    text-align: center;
+    font-family: Georgia; 
+    color: rgb(255, 0, 0);
+}
+.p_p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.p_reviews {
+    text-align: justify;
+    font-size: 28px;
+    margin: 40px;
+    color: white;
+}
+/*The button element defines a single button stimulus and specifies how the button is presented.*/
+button {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-style: groove;
+    border-color:rgb(255, 255, 255);
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #830000;
+  }
+  li {
+    float: left;
+    margin: 10px;
+    border-right:1px solid #000000;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: calc(1em / 8);
+  }
+  li a:hover:not(.active) {
+    background-color: #440e0e;
+  }
