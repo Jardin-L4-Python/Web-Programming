@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="chapter6.css">
+    <title>PETROL CALCULATOR</title>
+</head>
+<body>
+    <div class="PETROLCALCULATOR">
+        <h1>Petrol Calculator</h1>
+    </div>
+    <!--The 'form' id attribute is used to assign a unique identifier to that element-->
+    <form id="petrolcalculatorform">
+        <div class="FORM">
+            <div id="textone">
+                <!--The 'label' element is used to specify a label for an input element of a form-->
+                <label for="petrolcost">Cost of petrol per liter:</label>
+                <!--The 'input' element is used to specify an input field where the user can enter data in the form-->
+                <input type="number" id="petrolcost" value="1.72">
+                <br>
+                <br>
+            </div>
+            <div id="texttwo">
+                <label for="literspurchased">Liters purchased:</label>
+                <input type="number" id="literspurchased" value="0">
+                <br>
+                <br>
+            </div>
+            <div id="textthree">
+                <label for="totalcost">Total cost:</label>
+                <span id="totalcost"></span>
+                <br>
+                <br>
+            </div>
+            <button type="button" onclick="calculateTotal()">CALCULATE</button>
+            <br>
+        </form>
+        <script>
+            // The 'function' contains code that will be executed by an event or a call to that function
+        function calculateTotal() {
+            // The 'var' is a keyword that is a variable
+            var petrolcost = parseFloat(document.getElementById('petrolcost').value);
+            var literspurchased = parseFloat(document.getElementById('literspurchased').value);
+            var totalcost = petrolcost * literspurchased;
+            document.getElementById('totalcost').innerHTML = "$" + totalcost.toFixed(2);
+        }
+        </script>
+        <footer><h2>By: Jardin Anne Mercado</h2></footer>
+</body>
+</html>

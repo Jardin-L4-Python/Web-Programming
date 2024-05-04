@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(252, 245, 223);
+}
+input[type="number"], button {
+    margin: 5px;
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    border-style: groove;
+    border-color: gray;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+input[type="number"]:focus, button:hover {
+    border-color: rgb(0, 0, 0);
+    outline: none;
+}
+button {
+    padding: 10px;
+    width: 135px;
+    height: 30px;
+    color: black;
+    margin: auto;
+    margin-top: -5px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 80%;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(243, 197, 250);
+    border-style: groove;
+    border-radius: 5px;
+    border-color:rgb(209, 179, 179);
+}
+footer {
+    text-align: center;
+    font-size: 50%;
+    margin-top: 90px;
+}
+.PETROLCALCULATOR {
+    background-image: -webkit-linear-gradient(left, #edd5ff, #f1ccec, #c4dde2); ;
+    color: black;
+    margin: auto;
+    margin-top: 180px;
+    width: 700px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    border-radius: 2px;
+}
+.FORM {
+    background-color: rgb(247, 239, 230);
+    font-size: 150%;
+    color: black;
+    margin: auto;
+    margin-top: 1px;
+    width: 700px;
+    height: 250px;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+}
+#textone {
+    text-indent: 100px;
+}
+#texttwo {
+    text-indent: 100px;
+}
+#textthree {
+    text-indent: 100px;
+}
