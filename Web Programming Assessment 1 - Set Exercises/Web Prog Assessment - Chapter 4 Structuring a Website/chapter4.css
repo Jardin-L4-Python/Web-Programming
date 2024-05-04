@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Yeseva+One&display=swap");
+
+header {
+    text-align: center;
+    font-family: "Yeseva One", serif;
+    letter-spacing: 4px;
+    font-size: 157%;
+    color: #ffffff;
+    background-color: #56cfbb;
+    padding: 1px;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    margin: 21px;
+    text-align: justify;
+}
+h3 {
+  text-align: center;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    margin: 21px;
+    text-align: justify;
+}
+ol {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #56cfbb;
+  }
+  li {
+    float: left;
+    width: 250px;
+    height: 60px;
+    margin: auto;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: calc(1em / 5);
+  }
+  li a:hover:not(.active) {
+    background-color: rgb(179, 206, 255);
+}
+img {
+  margin-left: 19px;
+}
+footer {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  background-color: #a1ebeb;
+  margin: -10px;
+  width: 1352px;
+  height: 27px;
+}
+  .lineup {
+    color: rgb(0, 0, 0);
+    background-color: #faf890;
+    padding-right: 50px;
+    padding-bottom: -3px;
+    margin-top: 18px;
+  }
+  .asideimage1 {
+    width: 210px;
+    height: 135px;
+  }
+  .asideimage2 {
+    width: 180px;
+    height: 135px;
+  }
+  #line {
+    text-align: left;
+    font-size: 165%;
+  }
