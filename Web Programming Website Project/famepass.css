@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Gluten:wght@100..900&family=Londrina+Outline&family=Oleo+Script:wght@400;700&family=Satisfy&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Oswald:wght@200..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#ee5871,#39a8d4,#dd21ae,#a70d92);
+    background-size: 300% 300%;
+    animation: color 9s ease-in-out infinite;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+  }
+  ol {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff00;
+  }
+  li {
+    float: left;
+    margin: 46px;
+  }
+  li:last-child {
+    border-right: none;
+  }
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 29px;
+      text-decoration: none;
+      font-size: 22px;
+      font-family: "DynaPuff", system-ui;
+      font-weight: bold;
+      letter-spacing: calc(1em / 8);
+    }
+    li a:hover:not(.active) {
+      background-color: #3b62b6e8;
+    }
+.famepass {
+    color: rgb(255, 241, 250);
+    text-align: center;
+    font-size: 280%;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 775px;
+    margin-top: 50px;
+}
+.famepassmoney {
+    float: right;
+    margin-right: 100px;
+    margin-top: -120px;
+    box-shadow: #dd21ae;
+}
+.famepassp {
+    color: rgb(255, 242, 246);
+    font-size: 140%;
+    width: 500px;
+    font-family: "DynaPuff", system-ui;
+    float: right;
+    margin-right: 90px;
+    margin-top: 20px;
+}

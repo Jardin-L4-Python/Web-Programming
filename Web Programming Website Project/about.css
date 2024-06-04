@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Gluten:wght@100..900&family=Londrina+Outline&family=Oleo+Script:wght@400;700&family=Satisfy&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Oswald:wght@200..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#ee5871,#39a8d4,#dd21ae,#a70d92);
+    background-size: 300% 300%;
+    animation: color 9s ease-in-out infinite;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+  }
+  ol {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #ffffff00;
+  }
+  li {
+    float: left;
+    margin: 46px;
+  }
+  li:last-child {
+    border-right: none;
+  }
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 14px 29px;
+      text-decoration: none;
+      font-size: 22px;
+      font-family: "DynaPuff", system-ui;
+      font-weight: bold;
+      letter-spacing: calc(1em / 8);
+    }
+    li a:hover:not(.active) {
+      background-color: #3b62b6e8;
+    }
+    #text {
+      margin-top: 30px;
+      font-family: "Bubblegum Sans", sans-serif;
+      font-size: 400%;
+      position: relative;
+      animation: example 3s;
+      animation-fill-mode: forwards;
+      }
+      @keyframes example {
+      from {
+        left: 0px;
+      color: rgb(8, 21, 134);
+      }
+      to {
+        left: 140px;
+      color: rgb(175, 0, 82);
+      }
+      }
+      #text2 {
+        font-size: 180%;
+        width: 500px;
+        font-family: "Bubblegum Sans", sans-serif;
+        position: relative;
+        animation: example2 4s;
+        animation-fill-mode: forwards;
+          }
+          @keyframes example2 {
+          from {
+          left: 0px;
+          color:rgb(134, 66, 161);
+          }
+          to {
+          left: 160px;
+          color: rgb(88, 22, 50);
+          }
+        }
+.fallguystrailer {
+  position: absolute;
+  margin-left: 730px;
+  margin-top: -310px;
+}
+h3 {
+  font-family: "Bubblegum Sans", sans-serif;
+  text-align: center;
+  margin-top: -360px;
+  float: right;
+  margin-right: 220px;
+  font-size: 230%;
+  color: rgb(72, 9, 78);
+}
+.creativetitle {
+  font-family: "Bubblegum Sans", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 200%;
+  color:  rgb(110, 9, 51);
+}
+.creativeh2 {
+  text-align: center;
+  font-family: "Bubblegum Sans", sans-serif;
+  text-align: center;
+  font-size: 150%;
+  color: rgb(110, 9, 51);
+}
+.creativep {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-size: 170%;
+  float: right;
+  margin-right: 220px;
+  width: 900px;
+  color: 150%;
+  color:  rgb(72, 9, 78);
+}
+.creativetrailer {
+  margin: auto;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-wrapper {
+  position: relative;
+}
+.slider {
+  width: 700px;
+  height: 450px;
+  margin-left: 320px;
+  margin-top: 100px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+.slider img {
+  width: 680px;
+  height: 450px;
+  scroll-snap-align: start;
+}
+.slidetitle {
+  text-align: center;
+  font-size: 200%;
+  font-family: "Bubblegum Sans", sans-serif;
+  color: rgb(110, 9, 51);
+}
+.slidetitlep {
+  font-size: 170%;
+  float: right;
+  margin-right: 220px;
+  width: 900px;
+  font-family: "Bubblegum Sans", sans-serif;
+  color: rgb(72, 9, 78);
+}
+.secondslidetitle {
+  text-align: center;
+  font-size: 150%;
+  font-family: "Bubblegum Sans", sans-serif;
+  color: rgb(110, 9, 51);
+}
+.secondslidep {
+  font-size: 170%;
+  float: right;
+  margin-right: 220px;
+  width: 900px;
+  font-family: "Bubblegum Sans", sans-serif;
+  color: rgb(72, 9, 78);
+}
+.ratingsandreviewstitle {
+  text-align: center;
+  font-size: 200%;
+  color: rgb(211, 33, 63);
+  font-family: "Bubblegum Sans", sans-serif;
+  margin-top: 100px;
+}
+.ratingsandreviewsh2 {
+  font-family: "Bubblegum Sans", sans-serif;
+  text-align: center;
+  font-size: 190%;
+  color: rgb(177, 72, 116);
+}
+.ratingsandreviewsh3 {
+  font-family: "Bubblegum Sans", sans-serif;
+  text-align: center;
+  font-size: 150%;
+  color: rgb(177, 72, 116);
+}
+.mikup {
+  font-family: "Bubblegum Sans", sans-serif;
+  float: right;
+  margin-right: 200px;
+  width: 900px;
+  font-size: 140%;
+  color: rgb(177, 72, 116);
+}
+.ratingsandreviewsh4 {
+  font-family: "Bubblegum Sans", sans-serif;
+  margin-top: 250px;
+  text-align: center;
+  font-size: 150%;
+  color: rgb(177, 72, 116);
+}
+.eugenep {
+  color: rgb(177, 72, 116);
+  margin-top: 20px;
+  font-family: "Bubblegum Sans", sans-serif;
+  float: right;
+  margin-right: 200px;
+  width: 900px;
+  font-size: 140%;
+}
+.ratingsandreviewsh5 {
+  font-family: "Bubblegum Sans", sans-serif;
+  margin-top: 250px;
+  text-align: center;
+  font-size: 150%;
+  color: rgb(177, 72, 116);
+}
+.zachp {
+  color: rgb(177, 72, 116);
+  margin-top: 20px;
+  font-family: "Bubblegum Sans", sans-serif;
+  float: right;
+  margin-right: 200px;
+  width: 900px;
+  font-size: 140%;
+}
+.ratingsandreviewsh6 {
+  font-family: "Bubblegum Sans", sans-serif;
+  margin-top: 250px;
+  text-align: center;
+  font-size: 150%;
+  color: rgb(177, 72, 116);
+}
+.tiffanyp {
+  color: rgb(177, 72, 116);
+  margin-top: 20px;
+  font-family: "Bubblegum Sans", sans-serif;
+  float: right;
+  margin-right: 200px;
+  width: 900px;
+  font-size: 140%;
+}
+.ratingsandreviewsh7 {
+  font-family: "Bubblegum Sans", sans-serif;
+  margin-top: 250px;
+  text-align: center;
+  font-size: 150%;
+  color: rgb(177, 72, 116);
+}
+.christianp {
+  color: rgb(177, 72, 116);
+  margin-bottom: 40px;
+  font-family: "Bubblegum Sans", sans-serif;
+  float: right;
+  margin-right: 200px;
+  width: 900px;
+  font-size: 140%;
+}

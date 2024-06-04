@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Gluten:wght@100..900&family=Londrina+Outline&family=Oleo+Script:wght@400;700&family=Satisfy&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Oswald:wght@200..700&display=swap');
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#ee5871,#39a8d4,#dd21ae,#a70d92);
+    background-size: 300% 300%;
+    animation: color 9s ease-in-out infinite;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff00;
+}
+li {
+  float: left;
+  margin: 46px;
+}
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "DynaPuff", system-ui;
+    font-weight: bold;
+    letter-spacing: calc(1em / 8);
+  }
+li a:hover:not(.active) {
+    background-color: #3b62b6e8;
+}
+img {
+    display: block;
+    margin-left: 10px;
+    margin-top: 65px;
+    height: 60%;
+    width: 53%;
+}
+h1 {
+    text-align: center; 
+    font-family: "DynaPuff", system-ui;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 550%;
+    margin-top: -340px;
+    margin-right: -470px;
+}
+h2 {
+    text-align: center; 
+    font-family: "DynaPuff", system-ui;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+    margin-top: -55px;
+    margin-right: -480px;
+}
+.season1 {
+    margin-top: -140px;
+    float: right;
+    margin-right: 130px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.season1title {
+    margin-top: 290px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.p {
+    margin-top: -250px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.season2title {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.p2 {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.season2 {
+    margin-top: -100px;
+    float: right;
+    margin-right: 130px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.season3title {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.p3 {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.season3 {
+    margin-top: -100px;
+    float: right;
+    margin-right: 130px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.season4title {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.p4 {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.season4 {
+    margin-top: -100px;
+    float: right;
+    margin-right: 130px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.archive {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    color: rgb(148, 24, 45);
+    text-align: center;
+    font-size: 60%;
+}
+.archivep {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.trail1text {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.trail1p {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.s1trailer {
+    margin-top: -85px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 220px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.trail2text {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.trail2p {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.s1trailer {
+    margin-top: -35px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 220px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.trail3text {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.trail3p {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.s3trailer {
+    margin-top: -35px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 220px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.trail4text {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.trail4p {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.s4trailer {
+    margin-top: -35px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 220px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.trail5text {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.trail5p {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.s5trailer {
+    margin-top: -35px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 220px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.trail6text {
+    margin-top: 430px;
+    float: right;
+    margin-right: 900px;
+    text-align: center;
+    font-size: 60%;
+    color: rgb(177, 14, 41);
+}
+.trail6p {
+    margin-top: -240px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: 300px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}
+.s6trailer {
+    margin-top: 5px;
+    float: right;
+    font-family: "DynaPuff", system-ui;
+    margin-right: -80px;
+    width: 700px;
+    font-size: 150%;
+    color: rgb(255, 206, 214);
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Gluten:wght@100..900&family=Londrina+Outline&family=Oleo+Script:wght@400;700&family=Satisfy&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Oswald:wght@200..700&display=swap');
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#ee5871,#39a8d4,#dd21ae,#a70d92);
+    background-size: 300% 300%;
+    animation: color 9s ease-in-out infinite;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff00;
+}
+li {
+  float: left;
+  margin: 46px;
+}
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "DynaPuff", system-ui;
+    font-weight: bold;
+    letter-spacing: calc(1em / 8);
+  }
+li a:hover:not(.active) {
+    background-color: #3b62b6e8;
+}
+.marquee {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.473);
+    border: 1px solid rgb(175, 4, 32), 0.15;
+    background-color: #ffa4c0;
+    overflow: hidden;
+    position: relative;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-size: 150%;
+    height: 50px;
+    width: 99%;
+    white-space: nowrap;
+}
+.marquee p {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.newstitle {
+    text-align: center;
+    font-size: 170%;
+    font-family: "Bubblegum Sans", sans-serif;
+    color: rgb(255, 227, 232);
+}
+.news1 {
+    font-family: "Bubblegum Sans", sans-serif;
+    text-align: center;
+    color: rgb(255, 215, 240);
+}
+.news1pic {
+    float: right;
+    margin-right: -80px;
+    width: 90%;
+    height: 30%;
+}
+.news2 {
+    margin-top: 600px;
+    font-family: "Bubblegum Sans", sans-serif;
+    text-align: center;
+    color: rgb(255, 215, 240);
+}
+.news2pic {
+    float: right;
+    margin-right: -320px;
+    width: 90%;
+    height: 30%;
+}
+.news3 {
+    margin-top: 600px;
+    font-family: "Bubblegum Sans", sans-serif;
+    text-align: center;
+    color: rgb(255, 215, 240);
+}
+.news3pic {
+    float: right;
+    margin-right: 150px;
+    width: 70%;
+    height: 90%;
+}
+.news4 {
+    margin-top: 640px;
+    font-family: "Bubblegum Sans", sans-serif;
+    text-align: center;
+    color: rgb(255, 215, 240);
+}
+.news4pic {
+    float: right;
+    margin-right: 150px;
+    width: 70%;
+    height: 90%;
+}

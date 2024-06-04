@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Gluten:wght@100..900&family=Londrina+Outline&family=Oleo+Script:wght@400;700&family=Satisfy&family=Yeseva+One&display=swap');
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60%;
+  width: 53%;
+}
+.beantimecheck {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30%;
+  width: 30%;
+  margin-left: 23%;
+  margin-top: -1%;
+}
+.btn {
+  padding: 8px 8px;
+  float: right;
+  margin-top: -150px;
+  margin-right: 545px;
+  background-color: #cf1352;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 100px;
+  box-shadow: 0 0 40px #cf1352;
+  font-family: "DynaPuff", system-ui;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#ee5871,#70b3f1,#4681d8,#a8baf7);
+    background-size: 300% 300%;
+    animation: color 9s ease-in-out infinite;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff00;
+}
+li {
+  float: left;
+  margin: 46px;
+}
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "DynaPuff", system-ui;
+    font-weight: bold;
+    letter-spacing: calc(1em / 8);
+  }
+  li a:hover:not(.active) {
+    background-color: #3b62b6e8;
+  }
+footer {
+  background-image: url(footerbg.jpg);
+  padding: 50px;
+  font-family: "DynaPuff", system-ui;
+  color: rgb(55, 43, 158);
+}
+.instagram {
+  margin-top: -50px;
+  float: right;
+  font-size: 370%;
+}
+.facebook {
+  margin-top: -170px;
+  float: right;
+  font-size: 370%;
+}
+.twitter {
+  margin-top: -50px;
+  float: right;
+  font-size: 370%;
+}
+.youtube {
+  margin-top: -170px;
+  float: right;
+  font-size: 370%;
+}
+.tiktok {
+  margin-top: -50px;
+  float: right;
+  font-size: 370%;
+}
+.discord {
+  margin-top: -170px;
+  float: right;
+  font-size: 370%;
+}
+.twitch {
+  margin-top: -170px;
+  float: right;
+  font-size: 370%;
+}
+h2 {
+  font-size: 210%;
+  margin-top: -33px;
+  float: right;
+  margin-right: 58px;
+}
+.followusbean {
+  float: right;
+  margin-top: -340px;
+  margin-right: -220px;
+  height: 5%;
+  width: 10%;
+}
+.logofooter {
+  float: right;
+  margin-top: -95px;
+  margin-right: 20px;
+  height: 20%;
+  width: 30%;
+}

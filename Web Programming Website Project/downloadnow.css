@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=DynaPuff:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Gluten:wght@100..900&family=Londrina+Outline&family=Oleo+Script:wght@400;700&family=Satisfy&family=Yeseva+One&display=swap');
+body {
+    background-image: url(downloadnowbg.png);
+}
+h1 {
+  font-family: "DynaPuff", system-ui;
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 30%;
+  left: 6%;
+  padding: 26px;
+  width: 580px;
+  border-color: rgb(54, 42, 211);
+  border-radius: 10px;
+  background-image:linear-gradient(80deg,#faa6cd,#f09ec4,rgb(252, 157, 188));
+  animation: color 6s ease-in-out infinite;
+  background-size: 30% 30%;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.epicgames {
+  text-align: center;
+  margin-right: 90px;
+  margin-left: 180px;
+  margin-top: 150px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  background-image:linear-gradient(80deg,#faa6cd,#f09ec4,rgb(252, 157, 188));
+  animation: color 6s ease-in-out infinite;
+  background-size: 30% 30%;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.nintendo {
+  text-align: center;
+  margin-right: 90px;
+  margin-left: 280px;
+  margin-top: -90px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  background-image:linear-gradient(80deg,#faa6cd,#f09ec4,rgb(252, 157, 188));
+  animation: color 6s ease-in-out infinite;
+  background-size: 30% 30%;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.xbox {
+  text-align: center;
+  margin-right: 90px;
+  margin-left: 380px;
+  margin-top: -90px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  background-image:linear-gradient(80deg,#faa6cd,#f09ec4,rgb(252, 157, 188));
+  animation: color 6s ease-in-out infinite;
+  background-size: 30% 30%;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.playstation {
+  text-align: center;
+  margin-right: 90px;
+  margin-left: 480px;
+  margin-top: -90px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  background-image:linear-gradient(80deg,#faa6cd,#f09ec4,rgb(252, 157, 188));
+  animation: color 6s ease-in-out infinite;
+  background-size: 30% 30%;
+}
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff00;
+}
+li {
+  float: left;
+  margin: 44px;
+}
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "DynaPuff", system-ui;
+    font-weight: bold;
+    letter-spacing: calc(1em / 8);
+}
+  li a:hover:not(.active) {
+    background-color: #3b62b6e8;
+}
+.beanplayingg {
+  box-shadow: 0 0 500px rgb(255, 59, 157);
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin-right: 600px;
+  margin-top: 40px;
+}
